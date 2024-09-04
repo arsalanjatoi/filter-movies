@@ -1,0 +1,718 @@
+.filter-loader-2,
+.filter-loader {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #bc332c;
+}
+
+.filter-loader-2.active,
+.filter-loader.active {
+    display: flex;
+}
+
+.page-id-300243 .e-con-inner {
+    margin: 0;
+    max-width: 100%;
+}
+
+div#itlItemFilter {
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.panel .d-flex {
+    justify-content: space-between;
+}
+
+.btn.btn-st-1 {
+    background-color: #fbc35c;
+    margin-bottom: 15px;
+}
+
+.itl-sidebar {
+    width: 29%;
+}
+
+.itl-grid {
+    padding: 0 0px 0 30px;
+    width: 70%;
+}
+
+#itlSearchResult .itl-grid {
+    padding: 0;
+    width: 100%;
+}
+
+#itlSearchResult .itl-toolbar {
+    justify-content: space-between;
+}
+
+#itlSearchResult .right {
+    display: flex;
+}
+
+.youId {
+    position: relative;
+}
+
+.youPlay iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.itl-grid p {
+    color: white;
+}
+
+.itl-grid p {
+    margin-top: 15px !important;
+}
+
+.itl-poster-content .review {
+    display: flex;
+    margin-top: 30px;
+}
+
+.itl-grid-footer .review {
+    display: flex;
+    margin: 15px 0;
+}
+
+.review h6 {
+    margin-right: 25px !important;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+h5,
+h6,
+h4,
+h3,
+h2,
+h1,
+p {
+    margin: 0 !important;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+button.accordion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3f3f3f;
+    color: white;
+}
+
+button.accordion .fa-plus {
+    display: block;
+}
+
+button.accordion .fa-minus {
+    display: none;
+}
+
+button.accordion.active .fa-minus {
+    display: block;
+}
+
+button.accordion.active .fa-plus {
+    display: none;
+}
+
+.itl-sidebar-option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itl-sidebar-option a {
+    text-decoration: none;
+}
+
+a.itl-toggle-bars span.itlclose {
+    display: none;
+}
+
+a.itl-toggle-bars.itlshow span.itlclose {
+    display: block;
+}
+
+a.itl-toggle-bars span.open {
+    display: block;
+}
+
+a.itl-toggle-bars.itlshow span.open {
+    display: none;
+}
+
+.panel {
+    padding: 15px;
+    position: relative;
+}
+
+input.st-1 {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: solid 1px lightgray;
+}
+
+button.itl-btn.round:hover {
+    background: darkgray;
+}
+
+button.itl-btn.round {
+    min-width: 75px;
+    padding: 5px 15px;
+    border: solid 1px lightgray;
+    border-radius: 35px;
+    color: black;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    transition: all 0.3s linear;
+}
+
+button.itl-btn.round.active {
+    background: #fbc35c;
+}
+
+.panel h6 {
+    color: black;
+    margin: 0;
+}
+
+/* .panel.st-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+input.st-2 {
+    width: 45%;
+}
+
+.panel ul {
+    padding-left: 6px;
+    background: #f5f2f2;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+/* Customize scrollbar track */
+.panel ul#showSearchResponse::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Customize scrollbar thumb */
+.panel ul#showSearchResponse::-webkit-scrollbar-thumb {
+    background: darkgray;
+}
+
+/* Handle on hover */
+.panel ul#showSearchResponse::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+.panel ul#showSearchResponse::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+}
+
+/* Hide scrollbar buttons (arrows) */
+.panel ul#showSearchResponse::-webkit-scrollbar-button {
+    display: none;
+}
+
+.panel ul li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.4s linear;
+}
+
+.panel ul li:hover {
+    background: lightblue;
+    color: white;
+}
+
+.show-selected-cast {
+    margin-top: 15px;
+}
+
+.itl-q-main {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.itl-q-main .image {
+    width: 150px;
+}
+
+.itl-q-main .image img {
+    min-width: 150px;
+}
+
+.itl-q-main .itl-q-content {
+    padding: 15px;
+}
+
+.itl-q-main .itl-q-content h5 {
+    color: black;
+    margin: 0;
+}
+
+.itl-search-result .itl-q-main .itl-q-content h5 {
+    color: white;
+}
+
+ul.itl-search-result li {
+    list-style: none;
+    margin-bottom: 30px;
+    border: solid 1px;
+}
+
+.cast-box {
+    display: flex;
+    align-items: center;
+
+}
+
+img.cast-image {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+#itl_loader i {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+h5#itl_message {
+    color: green;
+    font-size: 15px;
+}
+
+.panel.itl-genre {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.select-lang {
+    height: auto;
+    overflow-y: scroll;
+    overflow: auto;
+    max-height: 215px;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.lang-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.lang-item:hover {
+    background-color: #fbc35c;
+    ;
+}
+
+input.lang_check {
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.lang-item label {
+    width: 100%;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* ToolBar */
+
+.itl-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.itl-toolbar .count-status {
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.itl-search-result .count-status {
+    position: relative;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itl-sort label {
+    color: white;
+    padding-right: 15px;
+}
+
+.itl-btn-st-1 {
+    background: transparent;
+    color: white;
+    border: solid 1px transparent;
+    margin: 0;
+}
+
+button.itl-btn-st-1:focus {
+    outline: none;
+}
+
+button.itl-btn-st-1.active {
+    color: #FEC000;
+}
+
+/* Layout CSS */
+.itl-layout-box {
+    border: solid 1px;
+    padding: 30px;
+}
+
+ul {
+    padding-left: 0 !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+ul#showCommentsResponse {
+    height: 180px !important;
+}
+
+.itl-detail-view li.d-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 1px;
+    margin-bottom: 15px;
+    padding-bottom: 16px;
+}
+
+h5.itl-title {
+    color: white;
+}
+
+.itl-detail-view .itl-poster {
+    width: 150px;
+    margin-right: 35px;
+}
+
+.itl-detail-view .itl-poster img {
+    min-width: 150px;
+}
+
+.itl-grid-view {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.itl-grid-item {
+    padding: 30px;
+    letter-spacing: .03125em;
+    padding-bottom: 1rem;
+    margin-bottom: 0.25rem;
+    width: 33%;
+}
+
+.btn-st-1.btn-detail {
+    width: 100%;
+}
+
+button#itlLoadMore,
+.btn-st-1 {
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+    padding: 9px 30px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.3s linear;
+}
+
+button#itlLoadMore:hover,
+.btn-st-1:hover {
+    background: #408BEA;
+}
+
+
+
+/* Load more loader effect */
+.load-more {
+    position: relative;
+}
+
+.lds-ellipsis {
+    position: absolute;
+    top: -30px;
+}
+
+.lds-ellipsis.sr-loader {
+    display: none;
+}
+
+.lds-ellipsis.sr-loader.active {
+    display: block;
+}
+
+li.c-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h5 span {
+    padding-right: 10px;
+}
+
+.itl-compact-view .itl-poster {
+    width: 95px;
+    margin-right: 15px;
+}
+
+.lds-ellipsis {
+    /* display: inline-block; */
+    position: relative;
+    /* width: 80px; */
+    /* height: 80px; */
+}
+
+.lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(24px, 0);
+    }
+}
+
+.itl-q-content p.itl-poster-desc {
+    color: white;
+    margin-top: 15px !important;
+}
+
+/*------------------- LOADER EFFECT-------------------- */
+.lds-ellipsis.main-loader {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.panel .item {
+    position: absolute;
+    top: 6px;
+    right: 40px;
+
+}
+
+.loader {
+    --color: #fbc35c;
+    --size-mid: 6vmin;
+    --size-dot: 1.5vmin;
+    --size-bar: 0.4vmin;
+    --size-square: 3vmin;
+
+    position: relative;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+}
+
+/**
+	loader --2
+**/
+.loader.--2::before,
+.loader.--2::after {
+    width: var(--size-dot);
+    height: var(--size-dot);
+    background-color: var(--color);
+    border-radius: 50%;
+    opacity: 0;
+    animation: loader-2 0.8s cubic-bezier(0.2, 0.32, 0, 0.87) infinite;
+}
+
+.loader.--2::after {
+    animation-delay: 0.3s;
+}
+
+@keyframes loader-2 {
+
+    0%,
+    80%,
+    100% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 1;
+    }
+
+    0%,
+    100% {
+        transform: translateX(-4vmin);
+    }
+
+    90% {
+        transform: translateX(4vmin);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .flex-wrap {
+        flex-direction: column;
+    }
+
+    .itl-sidebar {
+        width: 100%;
+    }
+
+    .itl-grid {
+        padding: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .itl-grid-view {
+        flex-direction: column;
+    }
+
+    .itl-grid-item {
+        width: 100%;
+    }
+
+    .itl-toolbar .count-status {
+        display: none;
+    }
+
+    .itl-detail-view li.d-item {
+
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .itl-detail-view li.d-item {
+        flex-direction: column;
+    }
+}
